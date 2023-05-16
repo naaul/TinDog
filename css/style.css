@@ -1,0 +1,279 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1f18af, #a6eaff);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#div-page{
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title-container {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+#first-title{
+  display: flex;
+  flex-direction: column;
+}
+
+#iphone-pic{
+  height: 80vh;
+}
+
+#iphone-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#features-row{
+  display: flex;
+  margin-left: 93px;
+  margin-right: 93px;
+  margin-bottom: -25px;
+}
+
+#testimonial-container{
+  display: flex;
+  background-color: rgb(246, 246, 246);
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.row-dog-container{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons{
+  display: flex;
+  gap: 10px;
+}
+
+#title{
+  width: 480px;
+  font-weight: 900;
+  font-family: 'Wix Madefor Display', sans-serif;
+  
+}
+
+#last-container{
+  display: none;
+}
+
+
+@media screen and (max-width: 1250px) {
+  .row-dog-container{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #title-container{
+    margin-right: -20;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #text-title{
+    font-size: 30px;
+  }
+
+  #title{
+    width: 400px;
+  }
+
+  #but1{
+    width: 300px;
+    margin-left: 8px;
+  }
+
+  #but2{
+    width: 300px;
+    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #text-title{
+    font-size: 25px;
+  }
+
+  #title{
+    width: 350px;
+    padding-left: 15px;
+  }
+
+  #but1{
+    width: 200px;
+  }
+
+  #but2{
+    width: 200px;
+    margin-left: 8px;
+  }
+
+}
+
+@media screen and (max-width: 665px){
+  #text-title{
+    font-size: 22px;
+  }
+
+  #title{
+    padding-left: 30px;
+  }
+  #iphone-pic{
+    height: 60vh;
+  }
+  #but1{
+    width: 150px;
+  }
+
+  #but2{
+    width: 150px;
+  }
+
+  #iphone-container{
+    margin-right: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 580px){
+  #text-title{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 570px){
+  #iphone-container{
+    align-self: flex-end;
+    padding-right: 10px;
+  }
+
+  #title{
+    padding-left: 40px;
+    width: 100%;
+  }
+}
+ 
+@media screen and (max-width: 520px){
+  #text-title{
+    color: #1f18af;
+  }
+
+  #first-title{
+    align-self: flex-end;
+    margin-bottom: 100px;
+  }
+
+  #title{
+    display: none;
+  }
+
+  #iphone-pic{
+    height: 50vh;
+  }
+
+  #iphone-container{
+    margin-right: -50px;
+  }
+
+  #but1{
+    width: 120px;
+  }
+
+  #but2{
+    width: 120px;
+  }
+
+  #buttons{
+    margin-right: 50px;
+    margin-bottom: 113px;
+  }
+
+  .button-text{
+    display: none;
+  }
+
+  #last-container{
+    display: grid;
+    position: absolute;
+    left: 1px;
+    bottom: 580px;
+  }
+
+  #last-text{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px){
+  #last-text{
+    color: black;
+    font-size: 32px;
+  }
+
+  #iphone-container{
+    margin-right: 0px;
+  }
+
+  #iphone-pic{
+    height: 40vh;
+  }
+}
+
+
+
+#price-board{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+#price-board > .col{
+
+  width: 430px;
+}
+
+#footer-container{
+  height: 100%;
+}
